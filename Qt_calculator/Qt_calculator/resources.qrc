@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Calculator_icon.png</file>
+        <file>Back_Plain_textEdit.png</file>
+        <file>design/icon_logo_30x30 v2.0.png</file>
+        <file>design/Untitledbackspace.png</file>
+        <file>design/backspace.png</file>
+        <file>design/Unionback_space2.png</file>
+        <file>design/Unionback_space3.png</file>
+        <file>design/Unionback_space_gray.png</file>
+    </qresource>
+</RCC>

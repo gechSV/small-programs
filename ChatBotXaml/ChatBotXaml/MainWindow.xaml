@@ -1,0 +1,41 @@
+﻿<Window x:Class="ChatBotXaml.RegistrationWindow"
+        ResizeMode="NoResize"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatBotXaml"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="ChatBot" Height="600" Width="500" Icon="LogoBar.png"  >
+    
+
+    <Grid Background="#18191D">
+        <Border Margin="20,202,20,20" Background="#282E33" CornerRadius="10">
+            <StackPanel>
+                <TextBlock Text="Приветствую" FontSize="30" FontWeight="Bold" Margin="100 20 100 10"
+                           FontStyle="Normal" Foreground="White" HorizontalAlignment="Center"/>
+                <Grid Margin="20 30 " Height="250">
+
+                    <Button x:Name="RegButton" Click="RegButton_Click" HorizontalAlignment="Center" VerticalAlignment="Bottom" 
+                            Height="60" Width="300" Content="Регистрация" FontSize="25" 
+                            FontWeight="Bold" Margin="54,0,58,24" 
+                            Background="#009687" BorderBrush="#009687"
+                            />
+                    <TextBox x:Name="textBoxName" FontSize="18" Margin="0 0 0 200" materialDesign:HintAssist.Hint="Введите имя"
+                             Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                             materialDesign:TextFieldAssist.UnderlineBrush="#009687"
+                             materialDesign:HintAssist.Foreground="#009687"
+                             CaretBrush="#009687" SelectionBrush="#009687" Foreground="White" BorderBrush="#009687"
+                             OpacityMask="#009687"
+                             />
+                </Grid>
+
+            </StackPanel>
+
+        </Border>
+        <Image Margin="178,42,183,397" Source="logo.png" Stretch="Fill" HorizontalAlignment="Center"/>
+
+
+    </Grid>
+</Window>
